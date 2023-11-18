@@ -7,7 +7,7 @@ import json
 # Load the pre-trained Mask R-CNN
 model = hub.load("https://tfhub.dev/tensorflow/mask_rcnn/inception_v2/1")
 
-video_path = 'path/to/your/video/file.mp4'
+video_path = 'file.mp4'
 cap = cv2.VideoCapture(video_path)
 
 # Check if video file opened
